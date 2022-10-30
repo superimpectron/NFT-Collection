@@ -191,7 +191,7 @@ export default function Home() {
     if (!presaleStarted) {
       return (
         <div>
-          <div className={styles.description}>PreSale hasn't Started</div>
+          <div className={styles.description}>PreSale hasnt Started</div>
         </div>
       );
     }
@@ -226,7 +226,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./cryptodevs/0.svg" />
+          <image className={styles.image} src="./cryptodevs/0.svg" />
         </div>
       </div>
       <footer className={styles.footer}>Made with &#10084; by Crypto Devs</footer>
